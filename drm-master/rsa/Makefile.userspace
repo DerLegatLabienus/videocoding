@@ -1,0 +1,14 @@
+CC=gcc
+CFLAGS=-O1 -g3
+DEPS = rsa_client.o rsa.o rsa_common.o
+
+all: clean decryptor
+
+%.o: %.c
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+decryptor: decryptor.o $(DEPS)
+	$(CC) -o decryptor decryptor.o $(DEPS) 
+
+clean:
+	rm -f $(DEPS) decryptor

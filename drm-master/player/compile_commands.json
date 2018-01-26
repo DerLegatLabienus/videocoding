@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/aviva/thesis/drm-master/player",
+  "command": "gcc -g3 -DFETCHER -DTO_KERNEL -I ../tpvm player.c common.c common.h ../tpvm/h264.h -o player -lSDL",
+  "file": "/home/aviva/thesis/drm-master/player/player.c"
+}
+]

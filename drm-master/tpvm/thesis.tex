@@ -1,0 +1,204 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{hyperref}
+\begin{document}
+\title{Truly Protected Digital Video}
+\author{\IEEEauthorblockN{Asaf David}
+\IEEEauthorblockA{School of Computer Science\\
+    Tel Aviv-Yaffo Academic College\\
+    Tel Aviv, Israel\\
+Email: asafdavi@mail.mta.ac.il}
+}
+\maketitle
+
+\begin{abstract} 
+
+With the Internet becoming the leading platform for multimedia content
+distribution, the proper licensing of such data is turning to be a major
+concern for media owners and providers. DRM solutions are the standard tool used
+to enforce proper terms of content use. While many DRM methods were proposed
+and implemented over the years, ways to circumvent them are usually
+found short time upon release, often by exploiting the ability of a
+malicious client to intercept the tool in runtime and obtain the
+encryption key. This research proposal suggests a new DRM solution,
+specifically aimed at streaming video, which tries to prevent this
+vulnerability; The decryption of the video and the rendering of frames
+happen atomically inside a virtual machine, which establishes a controlled
+and trusted environment. The machine-code instructions run by the VM
+are encrypted per client. The decryption of instructions happen only at
+runtime, using a key which is held securely inside the CPU, inaccessible
+to any other process. Moreover, the genuinity of the system is verified
+prior to the key exchange. We believe this system achieves an improved
+level of security compared to existing DRM solutions. The project's
+adviser will be Dr. Nezer Jacob Zaidenberg.
+
+\end{abstract} 
+\IEEEpeerreviewmaketitle
+
+\section{Introduction} 
+
+The recent years have shown a rapid increase in multimedia usage in
+various applications. The technological advances in terms of consumer
+bandwidth paved the way for the Internet to become the leading platform
+for distribution of such content. These days, more and more consumers
+prefer to download the video content (either as streaming media or
+container files) rather than buy it in stores as they used to.
+
+One of the major concerns introduced by this trend is the proper
+enforcement of content licensing. These days, media providers make
+tremendous efforts to prevent third parties from redistributing licensed
+content. It has been shown that video piracy may lead to major financial
+losses; For example, a study held in the Institute for Policy Innovation
+in attempt to accurately assess the U.S industry losses to piracy has
+estimated the total annual loss in \$20.5 billion \cite{1}.
+
+In attempt to prevent piracy, \emph{Digital rights management} (DRM)
+solutions are utilized. In essence, a DRM solution is a software tool
+meant to enforce a policy of digital content usage after sale. We
+can track such tools back to the sixties, with new methods appearing
+continuously to this day. While publicly detailed information regarding
+the inner working of such tools, and especially their security features,
+is usually non-existent (due to obvious reasons), the basic structure
+is usually generic. It consists of at least three components: a content
+packager, a license server and a client DRM. The main difference between
+the various DRM solutions is the supported usage models. Among the best
+known DRM solutions are Microsoft DRM (bundled with Microsoft Media
+Player), Apple FairPlay (used for example in the iTunes store) and
+Adobe Flash Access. All of these have been hacked before. Note that as
+opposed to CableTV security, which usually contains trust model based on
+tamper-resistant hardware inside a Set-Top Box, A DRM solution have to
+rely on generic computers and on software tamper-resistance.
+
+\section{Requirements}
+
+The main requirement of our system is the prevention of unlicensed users
+from viewing the copyrighted video material, while still preserving
+smooth and enjoyable watching experience for legitimate clients. We
+will enforce the restriction of unauthorized viewing using cryptographic content
+encryption; the video will be encrypted by the content packager and
+decrypted by the client viewer right before being played. Using the
+client's public key for encryption will guarantee that the client is the
+only one who can decrypt the content.
+
+It's generally impossible to prevent a malicious user from capturing the
+decoded content (that is, the actual frames rendered to the screen, for
+example by recording the HDMI output of the computer or placing video
+camera in front of the monitor) in attempt to redistribute it. As it
+such actions usually lead to considerable reduction of video quality,
+we further ignore this threat. Instead, we consider the video in in its
+encoded by decrypted form as the main asset we want to protect. As such,
+it must be accessible solely by the viewer process. Thus the viewer must
+perform both the decryption and decoding stages atomically. Moreover,
+the video decryption key must be held securely, out of reach by either
+users or any other processes running alongside the viewer. This problem
+was tackled before \cite{2} and we plan to use a similar solution, as
+outlined in the next section.
+
+\subsection{Selective encryption}
+
+While encrypting to entire video bit-stream (also known as the
+naive encryption model) can guarantee complete security, it is
+usually infeasible when targeting real-time scenarios due to the high
+computational costs imposed on the encoder and decoder. \emph{Selective
+encryption} methods aim to solve this problem by only encrypting a
+subset of the video bit-stream. Many selective encryption methods have been
+proposed before, trading off various measures such as percentage of
+encrypted content, complexity, visual degradation and error tolerance
+(for example, see \cite{3} for a comparison of many selective
+encryption methods, specifically targeting H.264 coded video). As our
+tool mainly targets the commercial market, we're more interested in
+prevention of unlicensed usage rather than total video confidentiality.
+(In other words, selective encryption schemes which which may leak some image details but still 
+seriously degrade the viewing quality are accepted). This will reduce the required
+computational complexity of the encoder/decoder and will allow to use
+the tool in real-time scenarios. The exact selective encryption method
+will be chosen in a later stage.
+
+\subsection{Management capabilities}
+
+The system will also allow basic management capabilities - it would be
+possible to allow/prevent some user from watching videos. It would also
+be possible to display usage statistics - for example, how many times
+was each movie watched. This means that the server must be notified by
+the Viewer whenever a user watches a movie.
+
+\section{System Design} 
+Our system contains two separate sub-systems: 
+\begin{enumerate} 
+    \item \textbf{Distributor} 
+        This sub-system is used by the video distributor. It handles the
+        encoding and encrypting of the video and its distribution to the end
+        user. It also contains a data-base for storing information about the
+        system users and stored movies, and to hold usage statistics.
+    \item \textbf{Viewer} 
+        This sub-system is used by the end user. It is the secure
+        environment in which the video is decoded and played. The viewer
+        is specifically compiled for each user according to the user
+        key, as explained below.
+\end{enumerate}
+
+The Viewer is essentially a video player wrapped in a specially crafted
+virtual machine. This VM establishes the secure and trusted environment
+required to protect the content - It can only run machine-code in
+an encrypted form, which was specifically compiled to target the
+client running the Viewer. Since decryption is a relatively expensive
+operation, we can't have encrypt all instructions. Instead, we use
+the notion of \emph{scrambled} instructions. A scrambled instruction
+has various parts of it permuted (for example - the registers or the opcode)
+so effectively it cannot be run with the correct permutation translation table.
+This translation table is repeatedly updated by inserting a special
+instruction which defines a new translation table once every few regular
+instructions. Only these special instructions are encrypted, so the
+decryption time is reduced greatly. Once a translation table is known,
+the descrambling of the regular instructions is very fast.
+
+Obviously, the key used to decrypt the special instructions must not be
+accessible to other processes, and measures must be taken to achieve
+this. One idea is to store the generated key in the CPU cache and
+immediately lock this cache location from further writes. Once a client
+generated this key it must transfer it security (using a key-exchange
+algorithm) to the server, where the specific Viewer for the client will
+be built.
+
+In addition to the code-decryption key which was defined above, the
+Viewer also generates and holds in a similar fashion a video-decryption
+key. This key is used to decrypt the selective encrypted video
+bit-stream. The trusted environment will be used to prevent other
+processes from acquiring the video decryption key. The security of
+the system depends on the fact that the keys were generated in a real
+(non-virtual) environment, where reading the CPU registers is considered
+impossible. Hence the host must prove itself as such to the server. A
+verification algorithm that verifies this is proposed in \cite{4} and
+will be used in our system as well.
+
+The video encoder/decoder must handle the selective
+encryption/decryption, respectively. We will use H.264, a
+state-of-the-are video compression system, as the video standard for our
+system. H.264 is currently the most widely-deployed video compression
+system and has gained a dominance comparable only to JPEG for image
+compression due to its excellent coding efficiency. Various open-source,
+production ready H.264 encoders and decoders exist (such as x264\cite{5}
+and FFMpeg\cite{6}) and could be used as a basis for modification.
+
+\section{Timeline} 
+We plan to have an operational version ready by September 2013 according to the following plan:
+\begin{enumerate} 
+    \item Reading literature and selecting encryption algorithm by February, 2013. 
+    \item Implementing the selective encryption algorithm in the chosen codec by March, 2013.
+    \item Wrapping the decoder in the VM secure environment by May, 2013
+    \item Building the server side platform wrapping the encoder by June, 2013
+    \item System integration, tests and documentation by August, 2013.
+    \item Project final paper preparation by September, 2013. 
+\end{enumerate}
+
+\bibliographystyle{IEEEtran} 
+\begin{thebibliography}{99} 
+    \bibitem{1} S.E. Siwek. \href{www.copyrightalliance.org/files/u227/CostOfPiracy.pdf}{The True Cost of Motion Picture Piracy to the U.S. Economy}. In {\it Policy Report 186}, Sept. 2006
+    \bibitem{2} N. Zaidenberg, M. Kiperberg, A. Averbuch. \href{www.cs.tau.ac.il/~kiperber/truly.pdf}{An Efficient VM–Based Software Protection}. In {\it Network and System Security (NSS), 2011 5th International Conference on}, Sept. 6, 2011. 
+    \bibitem{3} T. Stuetz, A. Uhl. \href{}{A Survey of H.264 AVC/SVC Encryption} in {\it Technical Report 2010-10}, Dec. 2010
+    \bibitem{4} R. Kennel, H. Jamieson. \href{http://static.usenix.org/events/sec03/tech/kennell/kennell.pdf}{Establishing the Genuinity of Remote Computer Systems}. In {\it Proceedings of the 12th USENIX Security Symposium}, 2003.
+    \bibitem{5} x264. \url{http://www.videolan.org/developers/x264.html}
+    \bibitem{6} FFMpeg. \url{http://www.ffmpeg.org}
+
+\end{thebibliography} 
+\end{document}

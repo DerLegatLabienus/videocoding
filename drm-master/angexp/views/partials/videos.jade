@@ -1,0 +1,11 @@
+h2 videos
+
+div.row.row-padded(ng-repeat='video in videos')
+  div.col-md-3
+    img(src='images/videos/{{toJpg(video.name)}}')
+  div.col-md-9
+    h3 {{1+$index}}) {{video.name}}
+    span.resolution {{video.width}}x{{video.height}}, {{video.frames}} frames
+    p viewed by:
+    ul(ng-repeat='encoding in video.encodings')
+      li {{encoding.user}} on {{encoding.date | date:'medium'}}

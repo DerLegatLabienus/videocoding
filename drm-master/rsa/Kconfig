@@ -1,0 +1,25 @@
+config CRYPTO_RSA
+	tristate "RSA asymmetric cipher algorithm"
+	help
+	  RSA asymmetric cipher algorithm.
+
+	  This module uses the montgomery algorithm to compute fast modular
+	  exponentiation. All operands of the modular exponentiation can be
+	  of any bit length, thus you can use any public and/or private key
+	  lengths.
+
+	  If it is selected it will add approximately 8K to the kernel size.
+	  Select M to build this as a module. The module will be called rsa.
+
+config RSA_AUX_OPERAND_SIZE
+	int "Size of the preallocated auxilliary operands"
+	default "128"
+	depends on CRYPTO_RSA
+	help
+	  The rsa module needs some preallocated space to avoid computation-time
+	  allocations. The 'rsa_op' is the struct used by the rsa module to hold
+	  a multi-precision integer operand. This struct maps such an integer on
+	  multiple 32bit limbs. Here you select the size (in 32bit limbs) of the
+	  preallocated auxilliary operands. This size should be close to the key
+	  sizes that are usually used.
+

@@ -1,0 +1,1086 @@
+Jan 23 07:56:40 aviva-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="7.4.4" x-pid="697" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jan 23 07:57:18 aviva-VirtualBox anacron[5377]: Job `cron.daily' terminated
+Jan 23 07:57:18 aviva-VirtualBox anacron[5377]: Normal exit (1 job run)
+Jan 23 08:17:01 aviva-VirtualBox CRON[7440]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 23 08:28:12 aviva-VirtualBox kernel: [49860.895327] e1000: eth1 NIC Link is Down
+Jan 23 08:28:12 aviva-VirtualBox kernel: [49860.895499] e1000: eth2 NIC Link is Down
+Jan 23 08:28:12 aviva-VirtualBox kernel: [49860.895663] e1000: eth0 NIC Link is Down
+Jan 23 08:28:12 aviva-VirtualBox NetworkManager[810]: <info> (eth1): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 08:28:12 aviva-VirtualBox NetworkManager[810]: <info> (eth2): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 08:28:12 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 08:28:16 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Jan 23 08:28:16 aviva-VirtualBox NetworkManager[810]: <info> (eth1): deactivating device (reason 'carrier-changed') [40]
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> (eth1): canceled DHCP transaction, DHCP client pid 3304
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 23 08:28:17 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 10.0.3.15 on eth1.
+Jan 23 08:28:17 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth1.IPv4 with address 10.0.3.15.
+Jan 23 08:28:17 aviva-VirtualBox avahi-daemon[744]: Interface eth1.IPv4 no longer relevant for mDNS.
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 08:28:17 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 08:28:17 aviva-VirtualBox dnsmasq[1110]: using nameserver 192.168.43.1#53
+Jan 23 08:28:17 aviva-VirtualBox dnsmasq[1110]: using nameserver 192.168.43.1#53
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> (eth2): deactivating device (reason 'carrier-changed') [40]
+Jan 23 08:28:17 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 23 08:28:17 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> (eth2): canceled DHCP transaction, DHCP client pid 3305
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 23 08:28:17 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 10.0.4.15 on eth2.
+Jan 23 08:28:17 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth2.IPv4 with address 10.0.4.15.
+Jan 23 08:28:17 aviva-VirtualBox avahi-daemon[744]: Interface eth2.IPv4 no longer relevant for mDNS.
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 08:28:17 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 08:28:17 aviva-VirtualBox dnsmasq[1110]: using nameserver 192.168.43.1#53
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> (eth0): deactivating device (reason 'carrier-changed') [40]
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> (eth0): canceled DHCP transaction, DHCP client pid 3307
+Jan 23 08:28:17 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 10.0.2.15 on eth0.
+Jan 23 08:28:17 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 10.0.2.15.
+Jan 23 08:28:17 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <warn> DNS: plugin dnsmasq update failed
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> Removing DNS information from /sbin/resolvconf
+Jan 23 08:28:17 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 08:28:17 aviva-VirtualBox NetworkManager[810]: <info> NetworkManager state is now DISCONNECTED
+Jan 23 08:28:22 aviva-VirtualBox kernel: [49870.965719] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth1): carrier now ON (device state 20)
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth2): carrier now ON (device state 20)
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now ON (device state 20)
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Auto-activating connection 'Auto Ethernet'.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) starting connection 'Auto Ethernet'
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> NetworkManager state is now CONNECTING
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Auto-activating connection 'Auto Ethernet'.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) starting connection 'Auto Ethernet'
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Auto-activating connection 'Wired connection 2'.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) starting connection 'Wired connection 2'
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 23 08:28:22 aviva-VirtualBox kernel: [49870.972117] e1000: eth2 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 08:28:22 aviva-VirtualBox kernel: [49870.972804] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 1 of 5 (Device Prepare) started...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) scheduled...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 1 of 5 (Device Prepare) complete.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 1 of 5 (Device Prepare) started...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 2 of 5 (Device Configure) scheduled...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 1 of 5 (Device Prepare) complete.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) started...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) scheduled...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) complete.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) starting...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) successful.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) complete.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 2 of 5 (Device Configure) starting...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 2 of 5 (Device Configure) successful.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 2 of 5 (Device Configure) complete.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) starting...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) successful.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) complete.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 3 of 5 (IP Configure Start) started...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> dhclient started with pid 7502
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Beginning IP6 addrconf.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for fe80::a00:27ff:fe31:7f2b on eth1.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth1.IPv6 with address fe80::a00:27ff:fe31:7f2b.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Interface eth1.IPv6 no longer relevant for mDNS.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 3 of 5 (IP Configure Start) complete.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 3 of 5 (IP Configure Start) started...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> dhclient started with pid 7503
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Beginning IP6 addrconf.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for fe80::a00:27ff:feb7:b8ed on eth2.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth2.IPv6 with address fe80::a00:27ff:feb7:b8ed.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Interface eth2.IPv6 no longer relevant for mDNS.
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan 23 08:28:22 aviva-VirtualBox dhclient: All rights reserved.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 3 of 5 (IP Configure Start) complete.
+Jan 23 08:28:22 aviva-VirtualBox dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) started...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 23 08:28:22 aviva-VirtualBox dhclient: 
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> dhclient started with pid 7505
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Beginning IP6 addrconf.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for fe80::a00:27ff:fea1:2504 on eth0.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:fea1:2504.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv6 no longer relevant for mDNS.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) complete.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <warn> error monitoring device for netlink events: error processing netlink message: Object busy
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan 23 08:28:22 aviva-VirtualBox dhclient: All rights reserved.
+Jan 23 08:28:22 aviva-VirtualBox dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 08:28:22 aviva-VirtualBox dhclient: 
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Listening on LPF/eth1/08:00:27:31:7f:2b
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Sending on   LPF/eth1/08:00:27:31:7f:2b
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Sending on   Socket/fallback
+Jan 23 08:28:22 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.3.15 on eth1 to 255.255.255.255 port 67 (xid=0x3660193d)
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan 23 08:28:22 aviva-VirtualBox dhclient: DHCPACK of 10.0.3.15 from 10.0.3.2
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan 23 08:28:22 aviva-VirtualBox dhclient: All rights reserved.
+Jan 23 08:28:22 aviva-VirtualBox dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 08:28:22 aviva-VirtualBox dhclient: 
+Jan 23 08:28:22 aviva-VirtualBox dhclient: bound to 10.0.3.15 -- renewal in 41544 seconds.
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Listening on LPF/eth0/08:00:27:a1:25:04
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Sending on   LPF/eth0/08:00:27:a1:25:04
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Sending on   Socket/fallback
+Jan 23 08:28:22 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x1c3f3f03)
+Jan 23 08:28:22 aviva-VirtualBox dhclient: DHCPACK of 10.0.2.15 from 10.0.2.2
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth1): DHCPv4 state changed nbi -> preinit
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Listening on LPF/eth2/08:00:27:b7:b8:ed
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Sending on   LPF/eth2/08:00:27:b7:b8:ed
+Jan 23 08:28:22 aviva-VirtualBox dhclient: Sending on   Socket/fallback
+Jan 23 08:28:22 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.4.15 on eth2 to 255.255.255.255 port 67 (xid=0x30fd9f1a)
+Jan 23 08:28:22 aviva-VirtualBox dhclient: DHCPACK of 10.0.4.15 from 10.0.4.2
+Jan 23 08:28:22 aviva-VirtualBox dhclient: bound to 10.0.2.15 -- renewal in 42847 seconds.
+Jan 23 08:28:22 aviva-VirtualBox dhclient: bound to 10.0.4.15 -- renewal in 36660 seconds.
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed nbi -> preinit
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth1): DHCPv4 state changed preinit -> reboot
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   address 10.0.3.15
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   gateway 10.0.3.2
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '192.168.14.1'
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   domain name 'Home'
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 5 of 5 (IPv4 Configure Commit) scheduled...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth2): DHCPv4 state changed nbi -> preinit
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> reboot
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   address 10.0.2.15
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   gateway 10.0.2.2
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '192.168.14.1'
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   domain name 'Home'
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Configure Commit) scheduled...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> (eth2): DHCPv4 state changed preinit -> reboot
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   address 10.0.4.15
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   gateway 10.0.4.2
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '192.168.14.1'
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info>   domain name 'Home'
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 5 of 5 (IPv4 Configure Commit) scheduled...
+Jan 23 08:28:22 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 5 of 5 (IPv4 Commit) started...
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth1.IPv4 with address 10.0.3.15.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth1.IPv4 for mDNS.
+Jan 23 08:28:22 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 10.0.3.15 on eth1.IPv4.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:fea1:2504.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv6 for mDNS.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: Registering new address record for fe80::a00:27ff:fea1:2504 on eth0.*.
+Jan 23 08:28:23 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: ip-config -> secondaries (reason 'none') [70 90 0]
+Jan 23 08:28:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 5 of 5 (IPv4 Commit) complete.
+Jan 23 08:28:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Commit) started...
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 10.0.2.15.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 10.0.2.15 on eth0.IPv4.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth1.IPv6 with address fe80::a00:27ff:fe31:7f2b.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth1.IPv6 for mDNS.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: Registering new address record for fe80::a00:27ff:fe31:7f2b on eth1.*.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth2.IPv6 with address fe80::a00:27ff:feb7:b8ed.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth2.IPv6 for mDNS.
+Jan 23 08:28:23 aviva-VirtualBox avahi-daemon[744]: Registering new address record for fe80::a00:27ff:feb7:b8ed on eth2.*.
+Jan 23 08:28:24 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: ip-config -> secondaries (reason 'none') [70 90 0]
+Jan 23 08:28:24 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Commit) complete.
+Jan 23 08:28:24 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 5 of 5 (IPv4 Commit) started...
+Jan 23 08:28:24 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth2.IPv4 with address 10.0.4.15.
+Jan 23 08:28:24 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth2.IPv4 for mDNS.
+Jan 23 08:28:24 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 10.0.4.15 on eth2.IPv4.
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: ip-config -> secondaries (reason 'none') [70 90 0]
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 5 of 5 (IPv4 Commit) complete.
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: secondaries -> activated (reason 'none') [90 100 0]
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> NetworkManager state is now CONNECTED_GLOBAL
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 08:28:25 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 08:28:25 aviva-VirtualBox dnsmasq[1110]: using nameserver 192.168.14.1#53
+Jan 23 08:28:25 aviva-VirtualBox dnsmasq[1110]: using nameserver 192.168.14.1#53
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) successful, device activated.
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: secondaries -> activated (reason 'none') [90 100 0]
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) successful, device activated.
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: secondaries -> activated (reason 'none') [90 100 0]
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 08:28:25 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 08:28:25 aviva-VirtualBox dnsmasq[1110]: using nameserver 192.168.14.1#53
+Jan 23 08:28:25 aviva-VirtualBox dnsmasq[1110]: message repeated 2 times: [ using nameserver 192.168.14.1#53]
+Jan 23 08:28:25 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) successful, device activated.
+Jan 23 08:28:25 aviva-VirtualBox whoopsie[1035]: online
+Jan 23 11:30:13 aviva-VirtualBox ntpdate[7600]: step time server 91.189.89.199 offset 10900.913153 sec
+Jan 23 11:30:13 aviva-VirtualBox NetworkManager[810]: <warn> error monitoring device for netlink events: error processing netlink message: Object busy
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> (eth1): IP6 addrconf timed out or failed.
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> (eth2): IP6 addrconf timed out or failed.
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> (eth0): IP6 addrconf timed out or failed.
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 23 11:30:23 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 23 11:30:28 aviva-VirtualBox ntpdate[7685]: adjust time server 91.189.89.199 offset -0.000333 sec
+Jan 23 11:30:43 aviva-VirtualBox ntpdate[7687]: adjust time server 91.189.89.199 offset 0.000826 sec
+Jan 23 12:17:01 aviva-VirtualBox CRON[7733]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 23 13:17:01 aviva-VirtualBox CRON[8245]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 23 14:17:01 aviva-VirtualBox CRON[8681]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 23 15:17:01 aviva-VirtualBox CRON[8888]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 23 16:17:01 aviva-VirtualBox CRON[8932]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 23 16:24:33 aviva-VirtualBox kernel: [67552.225016] e1000: eth1 NIC Link is Down
+Jan 23 16:24:33 aviva-VirtualBox kernel: [67552.233904] e1000: eth2 NIC Link is Down
+Jan 23 16:24:33 aviva-VirtualBox kernel: [67552.237804] e1000: eth0 NIC Link is Down
+Jan 23 16:24:33 aviva-VirtualBox kernel: [67552.241790] usb 1-1: USB disconnect, device number 2
+Jan 23 16:24:33 aviva-VirtualBox NetworkManager[810]: <info> (eth1): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 16:24:33 aviva-VirtualBox NetworkManager[810]: <info> (eth2): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 16:24:33 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 16:24:34 aviva-VirtualBox kernel: [67552.664568] usb 1-1: new full-speed USB device number 3 using ohci-pci
+Jan 23 16:24:34 aviva-VirtualBox kernel: [67552.958468] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Jan 23 16:24:34 aviva-VirtualBox kernel: [67552.958473] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Jan 23 16:24:34 aviva-VirtualBox kernel: [67552.958475] usb 1-1: Product: USB Tablet
+Jan 23 16:24:34 aviva-VirtualBox kernel: [67552.958478] usb 1-1: Manufacturer: VirtualBox
+Jan 23 16:24:34 aviva-VirtualBox kernel: [67552.984497] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:1f.4/usb1/1-1/1-1:1.0/input/input7
+Jan 23 16:24:34 aviva-VirtualBox kernel: [67552.985147] hid-generic 0003:80EE:0021.0002: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:1f.4-1/input0
+Jan 23 16:24:34 aviva-VirtualBox mtp-probe: checking bus 1, device 3: "/sys/devices/pci0000:00/0000:00:1f.4/usb1/1-1"
+Jan 23 16:24:34 aviva-VirtualBox mtp-probe: bus: 1, device: 3 was not an MTP device
+Jan 23 16:24:37 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Jan 23 16:24:37 aviva-VirtualBox NetworkManager[810]: <info> (eth1): deactivating device (reason 'carrier-changed') [40]
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> (eth1): canceled DHCP transaction, DHCP client pid 7502
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 23 16:24:38 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 10.0.3.15 on eth1.
+Jan 23 16:24:38 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth1.IPv4 with address 10.0.3.15.
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 16:24:38 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 16:24:38 aviva-VirtualBox dnsmasq[1110]: using nameserver 192.168.14.1#53
+Jan 23 16:24:38 aviva-VirtualBox dnsmasq[1110]: using nameserver 192.168.14.1#53
+Jan 23 16:24:38 aviva-VirtualBox avahi-daemon[744]: Interface eth1.IPv4 no longer relevant for mDNS.
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> (eth2): deactivating device (reason 'carrier-changed') [40]
+Jan 23 16:24:38 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 23 16:24:38 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> (eth2): canceled DHCP transaction, DHCP client pid 7503
+Jan 23 16:24:38 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 10.0.4.15 on eth2.
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 23 16:24:38 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth2.IPv4 with address 10.0.4.15.
+Jan 23 16:24:38 aviva-VirtualBox avahi-daemon[744]: Interface eth2.IPv4 no longer relevant for mDNS.
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 16:24:38 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 16:24:38 aviva-VirtualBox dnsmasq[1110]: using nameserver 192.168.14.1#53
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> (eth0): deactivating device (reason 'carrier-changed') [40]
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> (eth0): canceled DHCP transaction, DHCP client pid 7505
+Jan 23 16:24:38 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 10.0.2.15 on eth0.
+Jan 23 16:24:38 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 10.0.2.15.
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <warn> DNS: plugin dnsmasq update failed
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> Removing DNS information from /sbin/resolvconf
+Jan 23 16:24:38 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 23 16:24:38 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 16:24:38 aviva-VirtualBox NetworkManager[810]: <info> NetworkManager state is now DISCONNECTED
+Jan 23 16:24:39 aviva-VirtualBox kernel: [67558.286179] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 16:24:39 aviva-VirtualBox kernel: [67558.292770] e1000: eth2 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 16:24:39 aviva-VirtualBox kernel: [67558.293506] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth1): carrier now ON (device state 20)
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth2): carrier now ON (device state 20)
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now ON (device state 20)
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Auto-activating connection 'Auto Ethernet'.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) starting connection 'Auto Ethernet'
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> NetworkManager state is now CONNECTING
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Auto-activating connection 'Auto Ethernet'.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) starting connection 'Auto Ethernet'
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Auto-activating connection 'Wired connection 2'.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) starting connection 'Wired connection 2'
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 1 of 5 (Device Prepare) started...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) scheduled...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 1 of 5 (Device Prepare) complete.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 1 of 5 (Device Prepare) started...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 2 of 5 (Device Configure) scheduled...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 1 of 5 (Device Prepare) complete.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) started...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) scheduled...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) complete.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) starting...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) successful.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) complete.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 2 of 5 (Device Configure) starting...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 2 of 5 (Device Configure) successful.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 2 of 5 (Device Configure) complete.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) starting...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) successful.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) complete.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 3 of 5 (IP Configure Start) started...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> dhclient started with pid 9035
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Beginning IP6 addrconf.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for fe80::a00:27ff:fe31:7f2b on eth1.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth1.IPv6 with address fe80::a00:27ff:fe31:7f2b.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Interface eth1.IPv6 no longer relevant for mDNS.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 3 of 5 (IP Configure Start) complete.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 3 of 5 (IP Configure Start) started...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> dhclient started with pid 9036
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Beginning IP6 addrconf.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for fe80::a00:27ff:feb7:b8ed on eth2.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth2.IPv6 with address fe80::a00:27ff:feb7:b8ed.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Interface eth2.IPv6 no longer relevant for mDNS.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 3 of 5 (IP Configure Start) complete.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) started...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan 23 16:24:39 aviva-VirtualBox dhclient: All rights reserved.
+Jan 23 16:24:39 aviva-VirtualBox dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 16:24:39 aviva-VirtualBox dhclient: 
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan 23 16:24:39 aviva-VirtualBox dhclient: All rights reserved.
+Jan 23 16:24:39 aviva-VirtualBox dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 16:24:39 aviva-VirtualBox dhclient: 
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> dhclient started with pid 9039
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Beginning IP6 addrconf.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for fe80::a00:27ff:fea1:2504 on eth0.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:fea1:2504.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv6 no longer relevant for mDNS.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) complete.
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan 23 16:24:39 aviva-VirtualBox dhclient: All rights reserved.
+Jan 23 16:24:39 aviva-VirtualBox dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 16:24:39 aviva-VirtualBox dhclient: 
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <warn> error monitoring device for netlink events: error processing netlink message: Object busy
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth1): DHCPv4 state changed nbi -> preinit
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed nbi -> preinit
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth2): DHCPv4 state changed nbi -> preinit
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Listening on LPF/eth1/08:00:27:31:7f:2b
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Sending on   LPF/eth1/08:00:27:31:7f:2b
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Listening on LPF/eth0/08:00:27:a1:25:04
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Sending on   LPF/eth0/08:00:27:a1:25:04
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Sending on   Socket/fallback
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Sending on   Socket/fallback
+Jan 23 16:24:39 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.3.15 on eth1 to 255.255.255.255 port 67 (xid=0x1e66c1f1)
+Jan 23 16:24:39 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x31b938f5)
+Jan 23 16:24:39 aviva-VirtualBox dhclient: DHCPACK of 10.0.3.15 from 10.0.3.2
+Jan 23 16:24:39 aviva-VirtualBox dhclient: DHCPACK of 10.0.2.15 from 10.0.2.2
+Jan 23 16:24:39 aviva-VirtualBox dhclient: bound to 10.0.2.15 -- renewal in 33013 seconds.
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> reboot
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info>   address 10.0.2.15
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info>   gateway 10.0.2.2
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '10.4.148.1'
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Configure Commit) scheduled...
+Jan 23 16:24:39 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Commit) started...
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Listening on LPF/eth2/08:00:27:b7:b8:ed
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Sending on   LPF/eth2/08:00:27:b7:b8:ed
+Jan 23 16:24:39 aviva-VirtualBox dhclient: Sending on   Socket/fallback
+Jan 23 16:24:39 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.4.15 on eth2 to 255.255.255.255 port 67 (xid=0x59a55f0b)
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 10.0.2.15.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 23 16:24:39 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 10.0.2.15 on eth0.IPv4.
+Jan 23 16:24:39 aviva-VirtualBox dhclient: DHCPACK of 10.0.4.15 from 10.0.4.2
+Jan 23 16:24:39 aviva-VirtualBox dhclient: bound to 10.0.3.15 -- renewal in 40422 seconds.
+Jan 23 16:24:39 aviva-VirtualBox kernel: [67558.390133] type=1400 audit(1516717479.878:36): apparmor="DENIED" operation="signal" profile="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=9046 comm="nm-dhcp-client." requested_mask="send" denied_mask="send" signal=term peer="/sbin/dhclient"
+Jan 23 16:24:39 aviva-VirtualBox kernel: [67558.390140] type=1400 audit(1516717479.878:37): apparmor="DENIED" operation="signal" profile="/sbin/dhclient" pid=9046 comm="nm-dhcp-client." requested_mask="receive" denied_mask="receive" signal=term peer="/usr/lib/NetworkManager/nm-dhcp-client.action"
+Jan 23 16:24:39 aviva-VirtualBox dhclient: bound to 10.0.4.15 -- renewal in 41344 seconds.
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: ip-config -> secondaries (reason 'none') [70 90 0]
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Commit) complete.
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info> (eth2): DHCPv4 state changed preinit -> reboot
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info>   address 10.0.4.15
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info>   gateway 10.0.4.2
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '10.4.148.1'
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 5 of 5 (IPv4 Configure Commit) scheduled...
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: secondaries -> activated (reason 'none') [90 100 0]
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info> NetworkManager state is now CONNECTED_GLOBAL
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 23 16:24:40 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 16:24:40 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 16:24:40 aviva-VirtualBox dnsmasq[1110]: using nameserver 10.4.148.1#53
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth1.IPv6 with address fe80::a00:27ff:fe31:7f2b.
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth1.IPv6 for mDNS.
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: Registering new address record for fe80::a00:27ff:fe31:7f2b on eth1.*.
+Jan 23 16:24:41 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) successful, device activated.
+Jan 23 16:24:41 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 5 of 5 (IPv4 Commit) started...
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth2.IPv4 with address 10.0.4.15.
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth2.IPv4 for mDNS.
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 10.0.4.15 on eth2.IPv4.
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:fea1:2504.
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv6 for mDNS.
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: Registering new address record for fe80::a00:27ff:fea1:2504 on eth0.*.
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth2.IPv6 with address fe80::a00:27ff:feb7:b8ed.
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth2.IPv6 for mDNS.
+Jan 23 16:24:41 aviva-VirtualBox avahi-daemon[744]: Registering new address record for fe80::a00:27ff:feb7:b8ed on eth2.*.
+Jan 23 16:24:42 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: ip-config -> secondaries (reason 'none') [70 90 0]
+Jan 23 16:24:42 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 5 of 5 (IPv4 Commit) complete.
+Jan 23 16:24:42 aviva-VirtualBox NetworkManager[810]: <info> (eth2): device state change: secondaries -> activated (reason 'none') [90 100 0]
+Jan 23 16:24:42 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 16:24:42 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 16:24:42 aviva-VirtualBox dnsmasq[1110]: using nameserver 10.4.148.1#53
+Jan 23 16:24:42 aviva-VirtualBox dnsmasq[1110]: using nameserver 10.4.148.1#53
+Jan 23 16:24:42 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) successful, device activated.
+Jan 23 16:24:43 aviva-VirtualBox whoopsie[1035]: offline
+Jan 23 16:24:43 aviva-VirtualBox whoopsie[1035]: online
+Jan 23 16:24:50 aviva-VirtualBox ntpdate[9116]: no server suitable for synchronization found
+Jan 23 16:24:50 aviva-VirtualBox NetworkManager[810]: <warn> error monitoring device for netlink events: error processing netlink message: Object busy
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> (eth1): IP6 addrconf timed out or failed.
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> (eth2): IP6 addrconf timed out or failed.
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> (eth0): IP6 addrconf timed out or failed.
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth2) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 23 16:24:59 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 23 16:25:06 aviva-VirtualBox ntpdate[9185]: no server suitable for synchronization found
+Jan 23 16:25:24 aviva-VirtualBox NetworkManager[810]: <warn> (eth1): DHCPv4 request timed out.
+Jan 23 16:25:25 aviva-VirtualBox NetworkManager[810]: <info> (eth1): canceled DHCP transaction, DHCP client pid 9035
+Jan 23 16:25:25 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv4 Configure Timeout) scheduled...
+Jan 23 16:25:25 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv4 Configure Timeout) started...
+Jan 23 16:25:25 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Jan 23 16:25:25 aviva-VirtualBox NetworkManager[810]: <warn> Activation (eth1) failed for connection 'Auto Ethernet'
+Jan 23 16:25:25 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv4 Configure Timeout) complete.
+Jan 23 16:25:25 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: failed -> disconnected (reason 'none') [120 30 0]
+Jan 23 16:25:25 aviva-VirtualBox NetworkManager[810]: <info> (eth1): deactivating device (reason 'none') [0]
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Auto-activating connection 'Auto Ethernet'.
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) starting connection 'Auto Ethernet'
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 1 of 5 (Device Prepare) started...
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) scheduled...
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 1 of 5 (Device Prepare) complete.
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) starting...
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) successful.
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 2 of 5 (Device Configure) complete.
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 3 of 5 (IP Configure Start) started...
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> dhclient started with pid 9196
+Jan 23 16:25:27 aviva-VirtualBox dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan 23 16:25:27 aviva-VirtualBox dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan 23 16:25:27 aviva-VirtualBox dhclient: All rights reserved.
+Jan 23 16:25:27 aviva-VirtualBox dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 16:25:27 aviva-VirtualBox dhclient: 
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Beginning IP6 addrconf.
+Jan 23 16:25:27 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for fe80::a00:27ff:fe31:7f2b on eth1.
+Jan 23 16:25:27 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth1.IPv6 with address fe80::a00:27ff:fe31:7f2b.
+Jan 23 16:25:27 aviva-VirtualBox avahi-daemon[744]: Interface eth1.IPv6 no longer relevant for mDNS.
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 3 of 5 (IP Configure Start) complete.
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> (eth1): DHCPv4 state changed nbi -> preinit
+Jan 23 16:25:27 aviva-VirtualBox dhclient: Listening on LPF/eth1/08:00:27:31:7f:2b
+Jan 23 16:25:27 aviva-VirtualBox dhclient: Sending on   LPF/eth1/08:00:27:31:7f:2b
+Jan 23 16:25:27 aviva-VirtualBox dhclient: Sending on   Socket/fallback
+Jan 23 16:25:27 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.3.15 on eth1 to 255.255.255.255 port 67 (xid=0x11fb6322)
+Jan 23 16:25:27 aviva-VirtualBox dhclient: DHCPACK of 10.0.3.15 from 10.0.3.2
+Jan 23 16:25:27 aviva-VirtualBox dhclient: bound to 10.0.3.15 -- renewal in 37671 seconds.
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> (eth1): DHCPv4 state changed preinit -> reboot
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info>   address 10.0.3.15
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info>   gateway 10.0.3.2
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '10.4.148.1'
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 5 of 5 (IPv4 Configure Commit) scheduled...
+Jan 23 16:25:27 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 5 of 5 (IPv4 Commit) started...
+Jan 23 16:25:27 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth1.IPv4 with address 10.0.3.15.
+Jan 23 16:25:27 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth1.IPv4 for mDNS.
+Jan 23 16:25:27 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 10.0.3.15 on eth1.IPv4.
+Jan 23 16:25:28 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: ip-config -> secondaries (reason 'none') [70 90 0]
+Jan 23 16:25:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 5 of 5 (IPv4 Commit) complete.
+Jan 23 16:25:28 aviva-VirtualBox NetworkManager[810]: <info> (eth1): device state change: secondaries -> activated (reason 'none') [90 100 0]
+Jan 23 16:25:28 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 16:25:28 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 16:25:28 aviva-VirtualBox dnsmasq[1110]: using nameserver 10.4.148.1#53
+Jan 23 16:25:28 aviva-VirtualBox dnsmasq[1110]: message repeated 2 times: [ using nameserver 10.4.148.1#53]
+Jan 23 16:25:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) successful, device activated.
+Jan 23 16:25:28 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 23 16:25:28 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 23 16:25:29 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth1.IPv6 with address fe80::a00:27ff:fe31:7f2b.
+Jan 23 16:25:29 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth1.IPv6 for mDNS.
+Jan 23 16:25:29 aviva-VirtualBox avahi-daemon[744]: Registering new address record for fe80::a00:27ff:fe31:7f2b on eth1.*.
+Jan 23 16:25:37 aviva-VirtualBox ntpdate[9236]: no server suitable for synchronization found
+Jan 23 16:25:47 aviva-VirtualBox NetworkManager[810]: <info> (eth1): IP6 addrconf timed out or failed.
+Jan 23 16:25:47 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 23 16:25:47 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 23 16:25:47 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth1) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 23 17:03:39 aviva-VirtualBox kernel: [69899.254532] e1000: eth1 NIC Link is Down
+Jan 23 17:03:39 aviva-VirtualBox kernel: [69899.254730] e1000: eth2 NIC Link is Down
+Jan 23 17:03:39 aviva-VirtualBox kernel: [69899.254921] e1000: eth0 NIC Link is Down
+Jan 23 17:03:39 aviva-VirtualBox NetworkManager[810]: <info> (eth1): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 17:03:39 aviva-VirtualBox NetworkManager[810]: <info> (eth2): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 17:03:39 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 17:03:43 aviva-VirtualBox kernel: [69903.291456] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 17:03:43 aviva-VirtualBox NetworkManager[810]: <info> (eth1): carrier now ON (device state 100)
+Jan 23 17:03:43 aviva-VirtualBox NetworkManager[810]: <info> (eth2): carrier now ON (device state 100)
+Jan 23 17:03:43 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now ON (device state 100)
+Jan 23 17:03:43 aviva-VirtualBox kernel: [69903.297681] e1000: eth2 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 17:03:43 aviva-VirtualBox kernel: [69903.298345] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 17:04:52 aviva-VirtualBox kernel: [69972.101347] usb 1-1: USB disconnect, device number 3
+Jan 23 17:04:52 aviva-VirtualBox kernel: [69972.642438] usb 1-1: new full-speed USB device number 4 using ohci-pci
+Jan 23 17:04:52 aviva-VirtualBox kernel: [69972.948583] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Jan 23 17:04:52 aviva-VirtualBox kernel: [69972.948629] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Jan 23 17:04:52 aviva-VirtualBox kernel: [69972.948669] usb 1-1: Product: USB Tablet
+Jan 23 17:04:52 aviva-VirtualBox kernel: [69972.948704] usb 1-1: Manufacturer: VirtualBox
+Jan 23 17:04:52 aviva-VirtualBox kernel: [69972.966579] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:1f.4/usb1/1-1/1-1:1.0/input/input8
+Jan 23 17:04:52 aviva-VirtualBox kernel: [69972.967874] hid-generic 0003:80EE:0021.0003: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:1f.4-1/input0
+Jan 23 17:04:52 aviva-VirtualBox mtp-probe: checking bus 1, device 4: "/sys/devices/pci0000:00/0000:00:1f.4/usb1/1-1"
+Jan 23 17:04:52 aviva-VirtualBox mtp-probe: bus: 1, device: 4 was not an MTP device
+Jan 23 17:04:53 aviva-VirtualBox kernel: [69973.631162] e1000: eth1 NIC Link is Down
+Jan 23 17:04:53 aviva-VirtualBox NetworkManager[810]: <info> (eth1): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 17:04:53 aviva-VirtualBox kernel: [69973.633709] e1000: eth2 NIC Link is Down
+Jan 23 17:04:53 aviva-VirtualBox kernel: [69973.633836] e1000: eth0 NIC Link is Down
+Jan 23 17:04:53 aviva-VirtualBox NetworkManager[810]: <info> (eth2): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 17:04:53 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 17:04:57 aviva-VirtualBox kernel: [69977.678561] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 17:04:57 aviva-VirtualBox NetworkManager[810]: <info> (eth1): carrier now ON (device state 100)
+Jan 23 17:04:57 aviva-VirtualBox NetworkManager[810]: <info> (eth2): carrier now ON (device state 100)
+Jan 23 17:04:57 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now ON (device state 100)
+Jan 23 17:04:57 aviva-VirtualBox kernel: [69977.685315] e1000: eth2 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 17:04:57 aviva-VirtualBox kernel: [69977.685983] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 17:17:01 aviva-VirtualBox CRON[9416]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 23 17:40:34 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now OFF (device state 100, deferring action for 4 seconds)
+Jan 23 17:40:34 aviva-VirtualBox kernel: [72115.812657] e1000: eth0 NIC Link is Down
+Jan 23 17:40:38 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Jan 23 17:40:38 aviva-VirtualBox NetworkManager[810]: <info> (eth0): deactivating device (reason 'carrier-changed') [40]
+Jan 23 17:40:39 aviva-VirtualBox NetworkManager[810]: <info> (eth0): canceled DHCP transaction, DHCP client pid 9039
+Jan 23 17:40:39 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Auto Ethernet' (eth1) as default for IPv4 routing and DNS.
+Jan 23 17:40:39 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 10.0.2.15 on eth0.
+Jan 23 17:40:39 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 10.0.2.15.
+Jan 23 17:40:39 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 23 17:40:39 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 17:40:39 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 17:40:39 aviva-VirtualBox dnsmasq[1110]: using nameserver 10.4.148.1#53
+Jan 23 17:40:39 aviva-VirtualBox dnsmasq[1110]: using nameserver 10.4.148.1#53
+Jan 23 17:40:39 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 23 17:40:39 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now ON (device state 20)
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Jan 23 17:40:40 aviva-VirtualBox kernel: [72121.839443] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Auto-activating connection 'Wired connection 2'.
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) starting connection 'Wired connection 2'
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) started...
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) scheduled...
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) complete.
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) starting...
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) successful.
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) complete.
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) started...
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> dhclient started with pid 9499
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Beginning IP6 addrconf.
+Jan 23 17:40:40 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for fe80::a00:27ff:fea1:2504 on eth0.
+Jan 23 17:40:40 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:fea1:2504.
+Jan 23 17:40:40 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv6 no longer relevant for mDNS.
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) complete.
+Jan 23 17:40:40 aviva-VirtualBox dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan 23 17:40:40 aviva-VirtualBox dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan 23 17:40:40 aviva-VirtualBox dhclient: All rights reserved.
+Jan 23 17:40:40 aviva-VirtualBox dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 17:40:40 aviva-VirtualBox dhclient: 
+Jan 23 17:40:40 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed nbi -> preinit
+Jan 23 17:40:40 aviva-VirtualBox dhclient: Listening on LPF/eth0/08:00:27:a1:25:04
+Jan 23 17:40:40 aviva-VirtualBox dhclient: Sending on   LPF/eth0/08:00:27:a1:25:04
+Jan 23 17:40:40 aviva-VirtualBox dhclient: Sending on   Socket/fallback
+Jan 23 17:40:40 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x68df6e1c)
+Jan 23 17:40:42 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:fea1:2504.
+Jan 23 17:40:42 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv6 for mDNS.
+Jan 23 17:40:42 aviva-VirtualBox avahi-daemon[744]: Registering new address record for fe80::a00:27ff:fea1:2504 on eth0.*.
+Jan 23 17:40:43 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x68df6e1c)
+Jan 23 17:40:51 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x64fb6418)
+Jan 23 17:40:54 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6 (xid=0x64fb6418)
+Jan 23 17:40:59 aviva-VirtualBox whoopsie[1035]: offline
+Jan 23 17:41:00 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14 (xid=0x64fb6418)
+Jan 23 17:41:00 aviva-VirtualBox NetworkManager[810]: <info> (eth0): IP6 addrconf timed out or failed.
+Jan 23 17:41:00 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 23 17:41:00 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 23 17:41:00 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 23 17:41:14 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15 (xid=0x64fb6418)
+Jan 23 17:41:25 aviva-VirtualBox NetworkManager[810]: <warn> (eth0): DHCPv4 request timed out.
+Jan 23 17:41:26 aviva-VirtualBox NetworkManager[810]: <info> (eth0): canceled DHCP transaction, DHCP client pid 9499
+Jan 23 17:41:26 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv4 Configure Timeout) scheduled...
+Jan 23 17:41:26 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv4 Configure Timeout) started...
+Jan 23 17:41:26 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Jan 23 17:41:26 aviva-VirtualBox NetworkManager[810]: <warn> Activation (eth0) failed for connection 'Wired connection 2'
+Jan 23 17:41:26 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv4 Configure Timeout) complete.
+Jan 23 17:41:26 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: failed -> disconnected (reason 'none') [120 30 0]
+Jan 23 17:41:26 aviva-VirtualBox NetworkManager[810]: <info> (eth0): deactivating device (reason 'none') [0]
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Auto-activating connection 'Wired connection 2'.
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) starting connection 'Wired connection 2'
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) started...
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) scheduled...
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) complete.
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) starting...
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) successful.
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) complete.
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) started...
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> dhclient started with pid 9515
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Beginning IP6 addrconf.
+Jan 23 17:41:28 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for fe80::a00:27ff:fea1:2504 on eth0.
+Jan 23 17:41:28 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:fea1:2504.
+Jan 23 17:41:28 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv6 no longer relevant for mDNS.
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) complete.
+Jan 23 17:41:28 aviva-VirtualBox dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan 23 17:41:28 aviva-VirtualBox dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan 23 17:41:28 aviva-VirtualBox dhclient: All rights reserved.
+Jan 23 17:41:28 aviva-VirtualBox dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 17:41:28 aviva-VirtualBox dhclient: 
+Jan 23 17:41:28 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed nbi -> preinit
+Jan 23 17:41:28 aviva-VirtualBox dhclient: Listening on LPF/eth0/08:00:27:a1:25:04
+Jan 23 17:41:28 aviva-VirtualBox dhclient: Sending on   LPF/eth0/08:00:27:a1:25:04
+Jan 23 17:41:28 aviva-VirtualBox dhclient: Sending on   Socket/fallback
+Jan 23 17:41:28 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x604df94d)
+Jan 23 17:41:30 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:fea1:2504.
+Jan 23 17:41:30 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv6 for mDNS.
+Jan 23 17:41:30 aviva-VirtualBox avahi-daemon[744]: Registering new address record for fe80::a00:27ff:fea1:2504 on eth0.*.
+Jan 23 17:41:31 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x604df94d)
+Jan 23 17:41:38 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x604df94d)
+Jan 23 17:41:48 aviva-VirtualBox NetworkManager[810]: <info> (eth0): IP6 addrconf timed out or failed.
+Jan 23 17:41:48 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 23 17:41:48 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 23 17:41:48 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 23 17:41:53 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xc6b00c71)
+Jan 23 17:41:56 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7 (xid=0xc6b00c71)
+Jan 23 17:42:03 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9 (xid=0xc6b00c71)
+Jan 23 17:42:12 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7 (xid=0xc6b00c71)
+Jan 23 17:42:13 aviva-VirtualBox NetworkManager[810]: <warn> (eth0): DHCPv4 request timed out.
+Jan 23 17:42:14 aviva-VirtualBox NetworkManager[810]: <info> (eth0): canceled DHCP transaction, DHCP client pid 9515
+Jan 23 17:42:14 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv4 Configure Timeout) scheduled...
+Jan 23 17:42:14 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv4 Configure Timeout) started...
+Jan 23 17:42:14 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: ip-config -> failed (reason 'ip-config-unavailable') [70 120 5]
+Jan 23 17:42:14 aviva-VirtualBox NetworkManager[810]: <warn> Activation (eth0) failed for connection 'Wired connection 2'
+Jan 23 17:42:14 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv4 Configure Timeout) complete.
+Jan 23 17:42:14 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: failed -> disconnected (reason 'none') [120 30 0]
+Jan 23 17:42:14 aviva-VirtualBox NetworkManager[810]: <info> (eth0): deactivating device (reason 'none') [0]
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Auto-activating connection 'Wired connection 2'.
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) starting connection 'Wired connection 2'
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: disconnected -> prepare (reason 'none') [30 40 0]
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) scheduled...
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) started...
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) scheduled...
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 1 of 5 (Device Prepare) complete.
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) starting...
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: prepare -> config (reason 'none') [40 50 0]
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) successful.
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) scheduled.
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 2 of 5 (Device Configure) complete.
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) started...
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: config -> ip-config (reason 'none') [50 70 0]
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Beginning DHCPv4 transaction (timeout in 45 seconds)
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> dhclient started with pid 9520
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Beginning IP6 addrconf.
+Jan 23 17:42:16 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for fe80::a00:27ff:fea1:2504 on eth0.
+Jan 23 17:42:16 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:fea1:2504.
+Jan 23 17:42:16 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv6 no longer relevant for mDNS.
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) complete.
+Jan 23 17:42:16 aviva-VirtualBox dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Jan 23 17:42:16 aviva-VirtualBox dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Jan 23 17:42:16 aviva-VirtualBox dhclient: All rights reserved.
+Jan 23 17:42:16 aviva-VirtualBox dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Jan 23 17:42:16 aviva-VirtualBox dhclient: 
+Jan 23 17:42:16 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed nbi -> preinit
+Jan 23 17:42:16 aviva-VirtualBox dhclient: Listening on LPF/eth0/08:00:27:a1:25:04
+Jan 23 17:42:16 aviva-VirtualBox dhclient: Sending on   LPF/eth0/08:00:27:a1:25:04
+Jan 23 17:42:16 aviva-VirtualBox dhclient: Sending on   Socket/fallback
+Jan 23 17:42:16 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x1f34c2eb)
+Jan 23 17:42:18 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::a00:27ff:fea1:2504.
+Jan 23 17:42:18 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv6 for mDNS.
+Jan 23 17:42:18 aviva-VirtualBox avahi-daemon[744]: Registering new address record for fe80::a00:27ff:fea1:2504 on eth0.*.
+Jan 23 17:42:19 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x1f34c2eb)
+Jan 23 17:42:22 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67 (xid=0x1f34c2eb)
+Jan 23 17:42:27 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xcb86963a)
+Jan 23 17:42:30 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4 (xid=0xcb86963a)
+Jan 23 17:42:31 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now OFF (device state 70, deferring action for 4 seconds)
+Jan 23 17:42:31 aviva-VirtualBox kernel: [72232.366542] e1000: eth0 NIC Link is Down
+Jan 23 17:42:31 aviva-VirtualBox kernel: [72232.367557] e1000 0000:00:03.0 eth0: Reset adapter
+Jan 23 17:42:33 aviva-VirtualBox NetworkManager[810]: <info> (eth0): carrier now ON (device state 70)
+Jan 23 17:42:33 aviva-VirtualBox kernel: [72234.426093] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 23 17:42:34 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6 (xid=0xcb86963a)
+Jan 23 17:42:34 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.32 on eth0 to 255.255.255.255 port 67 (xid=0x3a9686cb)
+Jan 23 17:42:34 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.32 from 192.168.1.1
+Jan 23 17:42:35 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.32 from 192.168.1.1
+Jan 23 17:42:35 aviva-VirtualBox dhclient: bound to 192.168.1.32 -- renewal in 1599 seconds.
+Jan 23 17:42:35 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 23 17:42:35 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.32
+Jan 23 17:42:35 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 23 17:42:35 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 23 17:42:35 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 23 17:42:35 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 23 17:42:35 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Configure Commit) scheduled...
+Jan 23 17:42:35 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Commit) started...
+Jan 23 17:42:35 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.32.
+Jan 23 17:42:35 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 23 17:42:35 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.32 on eth0.IPv4.
+Jan 23 17:42:36 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: ip-config -> secondaries (reason 'none') [70 90 0]
+Jan 23 17:42:36 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 5 of 5 (IPv4 Commit) complete.
+Jan 23 17:42:36 aviva-VirtualBox NetworkManager[810]: <info> (eth0): IP6 addrconf timed out or failed.
+Jan 23 17:42:36 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) scheduled...
+Jan 23 17:42:36 aviva-VirtualBox NetworkManager[810]: <info> (eth0): device state change: secondaries -> activated (reason 'none') [90 100 0]
+Jan 23 17:42:36 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 23 17:42:36 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 23 17:42:36 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 23 17:42:36 aviva-VirtualBox dnsmasq[1110]: using nameserver 10.4.148.1#53
+Jan 23 17:42:36 aviva-VirtualBox dnsmasq[1110]: using nameserver 10.4.148.1#53
+Jan 23 17:42:36 aviva-VirtualBox dnsmasq[1110]: using nameserver 213.57.2.5#53
+Jan 23 17:42:36 aviva-VirtualBox dnsmasq[1110]: using nameserver 213.57.22.5#53
+Jan 23 17:42:36 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) successful, device activated.
+Jan 23 17:42:36 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) started...
+Jan 23 17:42:36 aviva-VirtualBox NetworkManager[810]: <info> Activation (eth0) Stage 4 of 5 (IPv6 Configure Timeout) complete.
+Jan 23 17:42:36 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 23 17:42:36 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 23 17:42:39 aviva-VirtualBox whoopsie[1035]: online
+Jan 25 14:06:43 aviva-VirtualBox ntpdate[9559]: step time server 91.189.89.198 offset 159839.506233 sec
+Jan 25 14:17:01 aviva-VirtualBox CRON[9669]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed bound -> expire
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x84fad258)
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.32 on eth0 to 255.255.255.255 port 67 (xid=0x58d2fa84)
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.32 from 192.168.1.1
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info> (eth2): DHCPv4 state changed reboot -> expire
+Jan 25 14:33:14 aviva-VirtualBox kernel: [73836.969437] type=1400 audit(1516883594.128:38): apparmor="DENIED" operation="signal" profile="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=9699 comm="nm-dhcp-client." requested_mask="send" denied_mask="send" signal=term peer="/sbin/dhclient"
+Jan 25 14:33:14 aviva-VirtualBox kernel: [73836.969465] type=1400 audit(1516883594.128:39): apparmor="DENIED" operation="signal" profile="/sbin/dhclient" pid=9699 comm="nm-dhcp-client." requested_mask="receive" denied_mask="receive" signal=term peer="/usr/lib/NetworkManager/nm-dhcp-client.action"
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPDISCOVER on eth2 to 255.255.255.255 port 67 interval 3 (xid=0x29166c43)
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.4.15 on eth2 to 255.255.255.255 port 67 (xid=0x436c1629)
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPOFFER of 10.0.4.15 from 10.0.4.2
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPACK of 10.0.4.15 from 10.0.4.2
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info> (eth2): DHCPv4 state changed expire -> preinit
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3 (xid=0xdeedde71)
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPREQUEST of 10.0.3.15 on eth1 to 255.255.255.255 port 67 (xid=0x71deedde)
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPOFFER of 10.0.3.15 from 10.0.3.2
+Jan 25 14:33:14 aviva-VirtualBox dhclient: DHCPACK of 10.0.3.15 from 10.0.3.2
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info> (eth1): DHCPv4 state changed reboot -> preinit
+Jan 25 14:33:14 aviva-VirtualBox dhclient: bound to 10.0.4.15 -- renewal in 35274 seconds.
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info> (eth2): DHCPv4 state changed preinit -> bound
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info>   address 10.0.4.15
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info>   gateway 10.0.4.2
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 14:33:14 aviva-VirtualBox dhclient: bound to 10.0.3.15 -- renewal in 34533 seconds.
+Jan 25 14:33:14 aviva-VirtualBox kernel: [73836.988325] type=1400 audit(1516883594.144:40): apparmor="DENIED" operation="signal" profile="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=9704 comm="nm-dhcp-client." requested_mask="send" denied_mask="send" signal=term peer="/sbin/dhclient"
+Jan 25 14:33:14 aviva-VirtualBox kernel: [73836.988334] type=1400 audit(1516883594.144:41): apparmor="DENIED" operation="signal" profile="/sbin/dhclient" pid=9704 comm="nm-dhcp-client." requested_mask="receive" denied_mask="receive" signal=term peer="/usr/lib/NetworkManager/nm-dhcp-client.action"
+Jan 25 14:33:14 aviva-VirtualBox NetworkManager[810]: <info> Writing DNS information to /sbin/resolvconf
+Jan 25 14:33:14 aviva-VirtualBox dnsmasq[1110]: setting upstream servers from DBus
+Jan 25 14:33:14 aviva-VirtualBox dnsmasq[1110]: using nameserver 213.57.22.5#53
+Jan 25 14:33:14 aviva-VirtualBox dnsmasq[1110]: using nameserver 213.57.2.5#53
+Jan 25 14:33:14 aviva-VirtualBox dnsmasq[1110]: using nameserver 213.57.22.5#53
+Jan 25 14:33:14 aviva-VirtualBox dnsmasq[1110]: using nameserver 10.4.148.1#53
+Jan 25 14:33:14 aviva-VirtualBox dnsmasq[1110]: using nameserver 213.57.2.5#53
+Jan 25 14:33:14 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 25 14:33:14 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 25 14:33:17 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.32 on eth0 to 255.255.255.255 port 67 (xid=0x58d2fa84)
+Jan 25 14:33:17 aviva-VirtualBox dhclient: DHCPNAK from 192.168.1.1 (xid=0x84fad258)
+Jan 25 14:33:17 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> expire
+Jan 25 14:33:17 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x7911eb33)
+Jan 25 14:33:17 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 14:33:17 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.33 on eth0 to 255.255.255.255 port 67 (xid=0x33eb1179)
+Jan 25 14:33:17 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.33 from 192.168.1.1
+Jan 25 14:33:18 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.33 from 192.168.1.1
+Jan 25 14:33:18 aviva-VirtualBox dhclient: bound to 192.168.1.33 -- renewal in 1424 seconds.
+Jan 25 14:33:18 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 25 14:33:18 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.33
+Jan 25 14:33:18 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 14:33:18 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 25 14:33:18 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 14:33:18 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 14:33:18 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 192.168.1.32 on eth0.
+Jan 25 14:33:18 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.1.32.
+Jan 25 14:33:18 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 25 14:33:18 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.33.
+Jan 25 14:33:18 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 25 14:33:18 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.33 on eth0.IPv4.
+Jan 25 14:33:18 aviva-VirtualBox whoopsie[1035]: offline
+Jan 25 14:33:19 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 25 14:33:19 aviva-VirtualBox whoopsie[1035]: online
+Jan 25 14:54:26 aviva-VirtualBox kernel: [75110.307309] decryptor[10244]: segfault at 46 ip b75a3506 sp bff933d0 error 4 in libc-2.19.so[b7540000+1ab000]
+Jan 25 14:54:45 aviva-VirtualBox kernel: [75129.391121] rsa_mod: module verification failed: signature and/or  required key missing - tainting kernel
+Jan 25 14:54:45 aviva-VirtualBox kernel: [75129.391777] rsa: creating netlink socket
+Jan 25 14:54:45 aviva-VirtualBox kernel: [75129.391783] rsa: netlink socket -306566144 22
+Jan 25 14:54:45 aviva-VirtualBox kernel: [75129.391785] rsa begin...
+Jan 25 14:54:48 aviva-VirtualBox kernel: [75132.336842] decryptor[10254]: segfault at 46 ip b75de506 sp bf835740 error 4 in libc-2.19.so[b757b000+1ab000]
+Jan 25 14:57:02 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.33 on eth0 to 192.168.1.1 port 67 (xid=0x33eb1179)
+Jan 25 14:57:05 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.33 on eth0 to 192.168.1.1 port 67 (xid=0x33eb1179)
+Jan 25 14:57:05 aviva-VirtualBox dhclient: DHCPNAK from 192.168.1.1 (xid=0x7911eb33)
+Jan 25 14:57:05 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed bound -> expire
+Jan 25 14:57:05 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x50884c3b)
+Jan 25 14:57:05 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 14:57:06 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67 (xid=0x3b4c8850)
+Jan 25 14:57:06 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.34 from 192.168.1.1
+Jan 25 14:57:07 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.34 from 192.168.1.1
+Jan 25 14:57:07 aviva-VirtualBox dhclient: bound to 192.168.1.34 -- renewal in 1461 seconds.
+Jan 25 14:57:07 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 25 14:57:07 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.34
+Jan 25 14:57:07 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 14:57:07 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 25 14:57:07 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 14:57:07 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 14:57:07 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 192.168.1.33 on eth0.
+Jan 25 14:57:07 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.1.33.
+Jan 25 14:57:07 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 25 14:57:07 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.34.
+Jan 25 14:57:07 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 25 14:57:07 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.34 on eth0.IPv4.
+Jan 25 14:57:07 aviva-VirtualBox whoopsie[1035]: offline
+Jan 25 14:57:08 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 25 14:57:08 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 25 14:57:08 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 25 14:57:08 aviva-VirtualBox whoopsie[1035]: online
+Jan 25 15:17:01 aviva-VirtualBox CRON[10362]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 25 15:20:05 aviva-VirtualBox kernel: [76650.173317] decryptor[10398]: segfault at 46 ip b764c506 sp bfd8ea10 error 4 in libc-2.19.so[b75e9000+1ab000]
+Jan 25 15:21:29 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.34 on eth0 to 192.168.1.1 port 67 (xid=0x3b4c8850)
+Jan 25 15:21:32 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.34 on eth0 to 192.168.1.1 port 67 (xid=0x3b4c8850)
+Jan 25 15:21:32 aviva-VirtualBox dhclient: DHCPNAK from 192.168.1.1 (xid=0x50884c3b)
+Jan 25 15:21:32 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed bound -> expire
+Jan 25 15:21:32 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xc507a027)
+Jan 25 15:21:32 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 15:21:32 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.35 on eth0 to 255.255.255.255 port 67 (xid=0x27a007c5)
+Jan 25 15:21:32 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.35 from 192.168.1.1
+Jan 25 15:21:33 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.35 from 192.168.1.1
+Jan 25 15:21:33 aviva-VirtualBox dhclient: bound to 192.168.1.35 -- renewal in 1368 seconds.
+Jan 25 15:21:33 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 25 15:21:33 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.35
+Jan 25 15:21:33 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 15:21:33 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 25 15:21:33 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 15:21:33 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 15:21:33 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 192.168.1.34 on eth0.
+Jan 25 15:21:33 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.1.34.
+Jan 25 15:21:33 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 25 15:21:33 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.35.
+Jan 25 15:21:33 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 25 15:21:33 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.35 on eth0.IPv4.
+Jan 25 15:21:33 aviva-VirtualBox whoopsie[1035]: offline
+Jan 25 15:21:34 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 25 15:21:34 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 25 15:21:34 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 25 15:21:34 aviva-VirtualBox whoopsie[1035]: online
+Jan 25 15:44:21 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.35 on eth0 to 192.168.1.1 port 67 (xid=0x27a007c5)
+Jan 25 15:44:30 aviva-VirtualBox dhclient: message repeated 2 times: [ DHCPREQUEST of 192.168.1.35 on eth0 to 192.168.1.1 port 67 (xid=0x27a007c5)]
+Jan 25 15:44:30 aviva-VirtualBox dhclient: DHCPNAK from 192.168.1.1 (xid=0xc507a027)
+Jan 25 15:44:30 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed bound -> expire
+Jan 25 15:44:30 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 15:44:30 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xcfd1c345)
+Jan 25 15:44:30 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.36 on eth0 to 255.255.255.255 port 67 (xid=0x45c3d1cf)
+Jan 25 15:44:30 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.36 from 192.168.1.1
+Jan 25 15:44:32 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.36 from 192.168.1.1
+Jan 25 15:44:32 aviva-VirtualBox dhclient: bound to 192.168.1.36 -- renewal in 1552 seconds.
+Jan 25 15:44:32 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 25 15:44:32 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.36
+Jan 25 15:44:32 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 15:44:32 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 25 15:44:32 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 15:44:32 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 15:44:32 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 192.168.1.35 on eth0.
+Jan 25 15:44:32 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.1.35.
+Jan 25 15:44:32 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 25 15:44:32 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.36.
+Jan 25 15:44:32 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 25 15:44:32 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.36 on eth0.IPv4.
+Jan 25 15:44:32 aviva-VirtualBox whoopsie[1035]: offline
+Jan 25 15:44:33 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 25 15:44:33 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 25 15:44:33 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 25 15:44:33 aviva-VirtualBox whoopsie[1035]: online
+Jan 25 16:10:24 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.36 on eth0 to 192.168.1.1 port 67 (xid=0x45c3d1cf)
+Jan 25 16:10:27 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.36 on eth0 to 192.168.1.1 port 67 (xid=0x45c3d1cf)
+Jan 25 16:10:27 aviva-VirtualBox dhclient: DHCPNAK from 192.168.1.1 (xid=0xcfd1c345)
+Jan 25 16:10:27 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed bound -> expire
+Jan 25 16:10:27 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x79577440)
+Jan 25 16:10:27 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 16:10:27 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.37 on eth0 to 255.255.255.255 port 67 (xid=0x40745779)
+Jan 25 16:10:27 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.37 from 192.168.1.1
+Jan 25 16:10:28 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.37 from 192.168.1.1
+Jan 25 16:10:28 aviva-VirtualBox dhclient: bound to 192.168.1.37 -- renewal in 1718 seconds.
+Jan 25 16:10:28 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 25 16:10:28 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.37
+Jan 25 16:10:28 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 16:10:28 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 25 16:10:28 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 16:10:28 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 16:10:28 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 192.168.1.36 on eth0.
+Jan 25 16:10:28 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.1.36.
+Jan 25 16:10:28 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 25 16:10:28 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.37.
+Jan 25 16:10:28 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 25 16:10:28 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.37 on eth0.IPv4.
+Jan 25 16:10:28 aviva-VirtualBox whoopsie[1035]: offline
+Jan 25 16:10:29 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 25 16:10:29 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 25 16:10:29 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 25 16:10:29 aviva-VirtualBox whoopsie[1035]: online
+Jan 25 16:17:01 aviva-VirtualBox CRON[10522]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 25 16:39:06 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.37 on eth0 to 192.168.1.1 port 67 (xid=0x40745779)
+Jan 25 16:39:14 aviva-VirtualBox dhclient: message repeated 2 times: [ DHCPREQUEST of 192.168.1.37 on eth0 to 192.168.1.1 port 67 (xid=0x40745779)]
+Jan 25 16:39:14 aviva-VirtualBox dhclient: DHCPNAK from 192.168.1.1 (xid=0x79577440)
+Jan 25 16:39:14 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed bound -> expire
+Jan 25 16:39:14 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 16:39:14 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x2c832c2d)
+Jan 25 16:39:14 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.38 on eth0 to 255.255.255.255 port 67 (xid=0x2d2c832c)
+Jan 25 16:39:14 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.38 from 192.168.1.1
+Jan 25 16:39:15 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.38 from 192.168.1.1
+Jan 25 16:39:15 aviva-VirtualBox dhclient: bound to 192.168.1.38 -- renewal in 1765 seconds.
+Jan 25 16:39:15 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 25 16:39:15 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.38
+Jan 25 16:39:15 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 16:39:15 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 25 16:39:15 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 16:39:15 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 16:39:15 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 192.168.1.37 on eth0.
+Jan 25 16:39:15 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.1.37.
+Jan 25 16:39:15 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 25 16:39:15 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.38.
+Jan 25 16:39:15 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 25 16:39:15 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.38 on eth0.IPv4.
+Jan 25 16:39:15 aviva-VirtualBox whoopsie[1035]: offline
+Jan 25 16:39:16 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 25 16:39:16 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 25 16:39:16 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 25 16:39:16 aviva-VirtualBox whoopsie[1035]: online
+Jan 25 17:08:40 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.38 on eth0 to 192.168.1.1 port 67 (xid=0x2d2c832c)
+Jan 25 17:08:43 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.38 on eth0 to 192.168.1.1 port 67 (xid=0x2d2c832c)
+Jan 25 17:08:44 aviva-VirtualBox dhclient: DHCPNAK from 192.168.1.1 (xid=0x2c832c2d)
+Jan 25 17:08:44 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed bound -> expire
+Jan 25 17:08:44 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 17:08:44 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xf9f5714e)
+Jan 25 17:08:44 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.39 on eth0 to 255.255.255.255 port 67 (xid=0x4e71f5f9)
+Jan 25 17:08:44 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.39 from 192.168.1.1
+Jan 25 17:08:45 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.39 from 192.168.1.1
+Jan 25 17:08:45 aviva-VirtualBox dhclient: bound to 192.168.1.39 -- renewal in 1792 seconds.
+Jan 25 17:08:45 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 25 17:08:45 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.39
+Jan 25 17:08:45 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 17:08:45 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 25 17:08:45 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 17:08:45 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 17:08:45 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 192.168.1.38 on eth0.
+Jan 25 17:08:45 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.1.38.
+Jan 25 17:08:45 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 25 17:08:45 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.39.
+Jan 25 17:08:45 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 25 17:08:45 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.39 on eth0.IPv4.
+Jan 25 17:08:45 aviva-VirtualBox whoopsie[1035]: offline
+Jan 25 17:08:46 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 25 17:08:46 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 25 17:08:46 aviva-VirtualBox whoopsie[1035]: online
+Jan 25 17:08:46 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 25 17:17:01 aviva-VirtualBox CRON[10679]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 25 17:38:37 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.39 on eth0 to 192.168.1.1 port 67 (xid=0x4e71f5f9)
+Jan 25 17:38:40 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.39 on eth0 to 192.168.1.1 port 67 (xid=0x4e71f5f9)
+Jan 25 17:38:40 aviva-VirtualBox dhclient: DHCPNAK from 192.168.1.1 (xid=0xf9f5714e)
+Jan 25 17:38:40 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed bound -> expire
+Jan 25 17:38:40 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x8985e142)
+Jan 25 17:38:40 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 17:38:40 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.40 on eth0 to 255.255.255.255 port 67 (xid=0x42e18589)
+Jan 25 17:38:40 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.40 from 192.168.1.1
+Jan 25 17:38:41 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.40 from 192.168.1.1
+Jan 25 17:38:41 aviva-VirtualBox dhclient: bound to 192.168.1.40 -- renewal in 1703 seconds.
+Jan 25 17:38:41 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 25 17:38:41 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.40
+Jan 25 17:38:41 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 17:38:41 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 25 17:38:41 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 17:38:41 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 17:38:41 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 192.168.1.39 on eth0.
+Jan 25 17:38:41 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.1.39.
+Jan 25 17:38:41 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 25 17:38:41 aviva-VirtualBox whoopsie[1035]: offline
+Jan 25 17:38:41 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.40.
+Jan 25 17:38:41 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 25 17:38:41 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.40 on eth0.IPv4.
+Jan 25 17:38:42 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 25 17:38:42 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 25 17:38:42 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 25 17:38:42 aviva-VirtualBox whoopsie[1035]: online
+Jan 25 18:07:04 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.40 on eth0 to 192.168.1.1 port 67 (xid=0x42e18589)
+Jan 25 18:07:12 aviva-VirtualBox dhclient: message repeated 2 times: [ DHCPREQUEST of 192.168.1.40 on eth0 to 192.168.1.1 port 67 (xid=0x42e18589)]
+Jan 25 18:07:12 aviva-VirtualBox dhclient: DHCPNAK from 192.168.1.1 (xid=0x8985e142)
+Jan 25 18:07:12 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed bound -> expire
+Jan 25 18:07:12 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xa5b5b760)
+Jan 25 18:07:12 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 18:07:12 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.41 on eth0 to 255.255.255.255 port 67 (xid=0x60b7b5a5)
+Jan 25 18:07:12 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.41 from 192.168.1.1
+Jan 25 18:07:13 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.41 from 192.168.1.1
+Jan 25 18:07:13 aviva-VirtualBox dhclient: bound to 192.168.1.41 -- renewal in 1417 seconds.
+Jan 25 18:07:13 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 25 18:07:13 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.41
+Jan 25 18:07:13 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 18:07:13 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 25 18:07:13 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 18:07:13 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 18:07:13 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 192.168.1.40 on eth0.
+Jan 25 18:07:13 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.1.40.
+Jan 25 18:07:13 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 25 18:07:13 aviva-VirtualBox whoopsie[1035]: offline
+Jan 25 18:07:13 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.41.
+Jan 25 18:07:13 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 25 18:07:13 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.41 on eth0.IPv4.
+Jan 25 18:07:14 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 25 18:07:14 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 25 18:07:14 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 25 18:07:14 aviva-VirtualBox whoopsie[1035]: online
+Jan 25 18:17:01 aviva-VirtualBox CRON[13349]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 25 18:30:50 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.41 on eth0 to 192.168.1.1 port 67 (xid=0x60b7b5a5)
+Jan 25 18:30:53 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.41 on eth0 to 192.168.1.1 port 67 (xid=0x60b7b5a5)
+Jan 25 18:30:53 aviva-VirtualBox dhclient: DHCPNAK from 192.168.1.1 (xid=0xa5b5b760)
+Jan 25 18:30:53 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed bound -> expire
+Jan 25 18:30:53 aviva-VirtualBox dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0xb1f89e02)
+Jan 25 18:30:53 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed expire -> preinit
+Jan 25 18:30:53 aviva-VirtualBox dhclient: DHCPREQUEST of 192.168.1.42 on eth0 to 255.255.255.255 port 67 (xid=0x29ef8b1)
+Jan 25 18:30:53 aviva-VirtualBox dhclient: DHCPOFFER of 192.168.1.42 from 192.168.1.1
+Jan 25 18:30:54 aviva-VirtualBox dhclient: DHCPACK of 192.168.1.42 from 192.168.1.1
+Jan 25 18:30:54 aviva-VirtualBox dhclient: bound to 192.168.1.42 -- renewal in 1479 seconds.
+Jan 25 18:30:54 aviva-VirtualBox NetworkManager[810]: <info> (eth0): DHCPv4 state changed preinit -> bound
+Jan 25 18:30:54 aviva-VirtualBox NetworkManager[810]: <info>   address 192.168.1.42
+Jan 25 18:30:54 aviva-VirtualBox NetworkManager[810]: <info>   prefix 24 (255.255.255.0)
+Jan 25 18:30:54 aviva-VirtualBox NetworkManager[810]: <info>   gateway 192.168.1.1
+Jan 25 18:30:54 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.2.5'
+Jan 25 18:30:54 aviva-VirtualBox NetworkManager[810]: <info>   nameserver '213.57.22.5'
+Jan 25 18:30:54 aviva-VirtualBox avahi-daemon[744]: Withdrawing address record for 192.168.1.41 on eth0.
+Jan 25 18:30:54 aviva-VirtualBox avahi-daemon[744]: Leaving mDNS multicast group on interface eth0.IPv4 with address 192.168.1.41.
+Jan 25 18:30:54 aviva-VirtualBox avahi-daemon[744]: Interface eth0.IPv4 no longer relevant for mDNS.
+Jan 25 18:30:54 aviva-VirtualBox avahi-daemon[744]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.42.
+Jan 25 18:30:54 aviva-VirtualBox avahi-daemon[744]: New relevant interface eth0.IPv4 for mDNS.
+Jan 25 18:30:54 aviva-VirtualBox avahi-daemon[744]: Registering new address record for 192.168.1.42 on eth0.IPv4.
+Jan 25 18:30:54 aviva-VirtualBox whoopsie[1035]: offline
+Jan 25 18:30:55 aviva-VirtualBox NetworkManager[810]: <info> Policy set 'Wired connection 2' (eth0) as default for IPv4 routing and DNS.
+Jan 25 18:30:55 aviva-VirtualBox dbus[610]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
+Jan 25 18:30:55 aviva-VirtualBox dbus[610]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 25 18:30:55 aviva-VirtualBox whoopsie[1035]: online
