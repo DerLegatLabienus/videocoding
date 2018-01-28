@@ -1,7 +1,7 @@
 var _             = require('underscore'),
     sprintf       = require('sprintf-js').sprintf,
     child_process = require('child_process'),
-
+    fs            = require('fs'),
     db            = require('./dbschema'),
     directories   = require('./directories');
 
@@ -43,34 +43,50 @@ var build_cmd = function(user, video, frames) {
     }
 
 
-    var cmd = [exec,  stringify_params(params), stringify_params2(params2), video_path ].join(' ');
-    return remove_double_spaces(cmd);
+    var cmd = fs.exists(video_path,function(err) {
+	    if (err == 'EEXIST')
+		return remove_double_spaces([exec,  stringify_params(params), stringify_params2(params2), video_path ].join(' '));
+	    else {
+	        console.log(err);
+	        return null;
+	    }
+    
+    });	
+
+	return cmd;
 };
 
 exports.encode = function(user, video, frames, callback) {
     if (!frames) {
         frames = 100;
     }
-	console.log(user,video,frames);
+    console.log(user,video,frames);
     var cmd = build_cmd(user, video, frames);
     console.log('cmd', cmd);
 
-    var enc = child_process.exec(cmd, function(error, stdout, stderr) {
-        if (error) {
-            console.log(error.stack);
-            console.log('error code: ' + error.code);
-            console.log('signal received: ' + error.signal);
-        }
-        if (stdout) {console.log('child process STDOUT: ' + stdout);}
-        if (stderr) {console.log('child process STDERR: ' + stderr);}
-    });
 
-    enc.on('exit', function(code) {
-        if (code == 0) {
-            console.log('finished encoding successfully');
-            callback();
-        } else {
-            console.log('encoder return code:', code);
-        }
-    });
+    if (cmd) {
+	    var enc = child_process.exec(cmd, function(error, stdout, stderr) {
+		if (error) {
+		    console.log(error.stack);
+		    console.log('error code: ' + error.code);
+		    console.log('signal received: ' + error.signal);
+		}
+		if (stdout) {console.log('child process STDOUT: ' + stdout);}
+		if (stderr) {console.log('child process STDERR: ' + stderr);}
+	    });
+
+	    enc.on('exit', function(code) {
+		if (code == 0) {
+		    console.log('finished encoding successfully');
+		    callback();
+		} else {
+		    console.log('encoder return code:', code);
+		}
+	    });
+    } else {
+	    console.log("file was already coded");
+	   callback();
+    }
+
 }

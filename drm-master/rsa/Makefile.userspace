@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-O1 -g3
+CFLAGS=-O1 -g3 -DTO_KERNEL
 DEPS = rsa_client.o rsa.o rsa_common.o
 
 all: clean decryptor

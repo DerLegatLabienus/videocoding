@@ -263,6 +263,7 @@ long keyj_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)
 static int keyj_dev_open(struct inode *inode, struct file *file)
 {
     // the device can be opened by at most two processes - the listener and the player
+    printk(KERN_INFO "Device is opening...\n" );
     if (dev_open > 1)
         return -EBUSY;
 

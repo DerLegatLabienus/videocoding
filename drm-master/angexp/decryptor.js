@@ -9,6 +9,7 @@ exports.decrypt = function(data, callback) {
         if(err) {
             console.log(err);
         } else {
+	    console.log("decypt","using dec now");
 	    var cmd = './dec'
             var enc = child_process.exec(cmd, function(error, stdout, stderr) {
                 if (error) {

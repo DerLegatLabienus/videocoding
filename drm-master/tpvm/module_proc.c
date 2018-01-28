@@ -68,6 +68,7 @@ int metadata_proc_write(struct file *file, const char *buffer, unsigned long cou
 int setup_proc_fs(void)
 {
 
+    printk(KERN_INFO "setup_proc_fs started\n");
     struct file_operations ops =  { .write = metadata_proc_write};
     metadata_proc = proc_create(metadata_proc_name, S_IFREG | S_IRUGO , NULL, &ops);
     if (!metadata_proc) {
@@ -97,6 +98,7 @@ int setup_proc_fs(void)
     proc_set_user(metadata_proc,uid2,gid2);
     proc_set_size(metadata_proc,37);
 
+    printk(KERN_INFO "setup_proc_fs didn't failed\n");
 	/* metadata_proc->write_proc      = metadata_proc_write;
     info_viewer_proc->write_proc   = info_viewer_proc_write;
     info_listener_proc->write_proc = info_listener_proc_write;

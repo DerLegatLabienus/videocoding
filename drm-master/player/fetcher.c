@@ -74,11 +74,13 @@ static void handle_int(int num) {
 int setup_efds() {
     efd_k2l = eventfd(0,0);
     efd_l2k = eventfd(0,0);
+    printf( "11\n");
     return (efd_k2l && efd_l2k) ? 0 : -1;
 }
 
 int write_metadata(Metadata metadata, const char* path)
 {
+    printf( "1111\n");
     const int ep_fd = open(path, O_WRONLY);
     if(ep_fd < 0) {
         fprintf(stderr, "Failed opening %s (%s)! Exiting...\n", path, strerror(errno));
@@ -90,6 +92,7 @@ int write_metadata(Metadata metadata, const char* path)
         return -1;
     }
     close(ep_fd);
+    printf( "11111\n");
     return 0;
 }
 
@@ -295,7 +298,6 @@ int run(unsigned char *key) {
         fprintf(stderr, "invalid metadata ack received.");
         goto cleanups;
     }
-    close(player);
 
     // metadata negotiation done, setup kernel context
     PRINT(("metadata negotiation done, setup kernel context\n"));

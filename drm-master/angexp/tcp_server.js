@@ -35,6 +35,7 @@ var decrypt_key = function(data, src) {
 }
 
 var encode_and_serve = function(socket, name, user, frames) {
+	
     VideoModel.findOne({name : new RegExp('^' + name + '$', 'i')}, function(err, video) {
         if (!video) {
             console.error('no video found matching', name, '- aborting');
@@ -49,7 +50,9 @@ var encode_and_serve = function(socket, name, user, frames) {
             var encoding = { user: user, date: new Date() };
             video.encodings.push(encoding); // TODO: persist the video update
             var upsertData = video.toObject();
+		console.log('saved data',upsertData);
             delete upsertData._id;
+            delete upsertData.__v
             VideoModel.update({name: video.name}, upsertData, {upsert: true}, function(err) {
                 if (err) {
                     console.log(err);
@@ -76,8 +79,8 @@ var tcp_server = net.createServer(function(socket) {
     socket.on('data', function(data) {
         var src = socket.remoteAddress;
         var user = 'aviv'; // todo: get this
-	var name = data.toString('utf8',5,20).split(" ")[0];
-        //var name = data.length > 256 ? data.toString('utf8', 256) : 'good.mpg';
+	//var name = data.toString('utf8',5,20).split(" ")[0];
+        var name = data.length > 256 ? data.toString('utf8', 256) : 'good.mpg';
         decrypt_key(data, src).then(function() {
 	    console.log("encoding");
             encode_and_serve(socket, name, user, 100);

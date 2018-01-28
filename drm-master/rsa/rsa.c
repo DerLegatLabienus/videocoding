@@ -273,7 +273,7 @@ u32 rsaLoad(void)
     cfg.input = netlink_dispatcher;
     printk(KERN_INFO "rsa: creating netlink socket\n");
     nl_sk=netlink_kernel_create(&init_net, NETLINK_USER, &cfg);
-    printk(KERN_INFO "rsa: netlink socket %d %d\n",nl_sk,NETLINK_USER);
+    printk(KERN_INFO "rsa: netlink socket %p %d\n",nl_sk,NETLINK_USER);
 #endif
 
     printk(KERN_INFO "rsa begin...\n");

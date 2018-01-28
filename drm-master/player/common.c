@@ -10,6 +10,7 @@
 
 int write_efds(int efd1, int efd2, const char* path)
 {
+	printf("111\n");
     if (efd1 == -1 || efd2 == -1){
         fprintf(stderr, "\nUnable to create eventfd! Exiting...\n");
         return -1;
@@ -21,6 +22,7 @@ int write_efds(int efd1, int efd2, const char* path)
         fprintf(stderr, "Failed opening %s (%s)! Exiting...\n", path, strerror(errno));
         return -1;
     }
+	printf("111\n");
     char buf[20];
     snprintf(buf, 20, "%d %d %d", getpid(), efd1, efd2);
     if (write(ep_fd, buf, strlen(buf) + 1) < 0) {
@@ -28,6 +30,7 @@ int write_efds(int efd1, int efd2, const char* path)
         close(ep_fd);
         return -1;
     }
+	printf("111\n");
     close(ep_fd);
     return 0;
 }

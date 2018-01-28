@@ -2,3 +2,4 @@ aomdec av1coded2 -o good_after_av1_decode.yuv --rawvideo --codec=av1
 aomdec av1coded2 | mpv -
 aomenc good2.yuv --codec=av1 -o av1coded2 -w 720 -h 480 --target-bitrate=4000 &
 ffmpeg -i videos/raw/good.mpg -s 720x480 -vcodec rawvideo -s 720x480 -pix_fmt yuv420p good2.yuv
+cd ../angexp/ ; nodejs app.js & cd -; sleep 5; sudo ./fetcher field.yuv &
